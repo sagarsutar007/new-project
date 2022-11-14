@@ -3,6 +3,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
+| Site Variables
+|--------------------------------------------------------------------------
+*/
+defined('BASEURL') OR define('BASEURL', 'http://localhost/base/');
+defined('ADMINASSETS') OR define('ADMINASSETS', 'http://localhost/base/assets/app/');
+defined('WEBASSETS') OR define('WEBASSETS', 'http://localhost/base/assets/web/');
+defined('USERASSETS') OR define('USERASSETS', 'http://localhost/base/assets/users/');
+
+/*
+|--------------------------------------------------------------------------
 | Display Debug backtrace
 |--------------------------------------------------------------------------
 |
